@@ -9,9 +9,12 @@ Need either a...
  P is of size 4
 
  When N rises above 9, m will decrease to a 3-digit number,
- by dividing 10000 / n
+ by dividing 10000 / n.
+ Examples:
+    10000/9 yields a 4-digit number
+    10000/11 yields a 3-digit number, thus obeying the rules set above.
  https://codereview.stackexchange.com/questions/31614/improve-pandigital-algorithm
- 
+
 '''
 pand_products = set()
 pand_set = set(map(str,range(1,10)))
